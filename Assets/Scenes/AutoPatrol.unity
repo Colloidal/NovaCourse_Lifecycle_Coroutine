@@ -149,16 +149,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 251531315}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 32b1521c02cf3384a99d6bab9b2d8b5a, type: 3}
+  m_Script: {fileID: 11500000, guid: 0029a147b99dab94d9334c290855fd14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  path:
+  points:
   - {x: -3, y: 2, z: 0}
   - {x: 3, y: 2, z: 0}
   - {x: -1.5, y: -1, z: 0}
   - {x: 0, y: 4, z: 0}
   - {x: 1.5, y: -1, z: 0}
-  moveSpeed: 3
+  movingSpeed: 10
 --- !u!65 &251531317
 BoxCollider:
   m_ObjectHideFlags: 0
