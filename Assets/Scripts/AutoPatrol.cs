@@ -25,7 +25,7 @@ public class AutoPatrol : MonoBehaviour
         while (transform.position != destination)
         {
             transform.position = Vector3.MoveTowards(transform.position, destination, movingSpeed * Time.deltaTime);
-            yield return 0;
+            yield return null;
         }
     }
 }

@@ -6,10 +6,7 @@ public class GradualChange : MonoBehaviour
 {
     private Renderer m_Renderer;
     public bool isFading = false;
-    private void Awake()
-    {
-        Debug.Log("1");
-    }
+
     private void Start()
     {
         m_Renderer = GetComponent<Renderer>();
